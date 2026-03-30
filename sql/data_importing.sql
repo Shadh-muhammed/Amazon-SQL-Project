@@ -1,0 +1,37 @@
+--importing  tables data
+
+BULK INSERT category
+FROM 'D:\SQL PROJECTS\AMAZON\datasets\category.csv'
+WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+
+BULK INSERT customers
+FROM 'D:\SQL PROJECTS\AMAZON\datasets\customers.csv'
+WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+
+BULK INSERT sellers
+FROM 'D:\SQL PROJECTS\AMAZON\datasets\sellers.csv'
+WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+
+BULK INSERT products
+FROM 'D:\SQL PROJECTS\AMAZON\datasets\products.csv'
+WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+
+BULK INSERT inventory
+FROM 'D:\SQL PROJECTS\AMAZON\datasets\inventory.csv'
+WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+
+BULK INSERT order_item
+FROM 'D:\SQL PROJECTS\AMAZON\datasets\order_items.csv'
+WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+
+BULK INSERT orders
+FROM 'D:\SQL PROJECTS\AMAZON\datasets\orders.csv'
+WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+
+BULK INSERT payments
+FROM 'D:\SQL PROJECTS\AMAZON\datasets\payments.csv'
+WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+
+BULK INSERT shipping
+FROM 'D:\SQL PROJECTS\AMAZON\datasets\shipping.csv'
+WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');

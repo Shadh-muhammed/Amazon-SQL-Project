@@ -1,0 +1,151 @@
+customer_id,f_name,l_name,state,address
+1,Rahul,Sharma,Uttar Pradesh,Address 1
+2,Vikram,Khan,Delhi,Address 2
+3,Sneha,Nair,Uttar Pradesh,Address 3
+4,Karan,Nair,Tamil Nadu,Address 4
+5,Priya,Sharma,Kerala,Address 5
+6,Rahul,Khan,Delhi,Address 6
+7,Karan,Gupta,Kerala,Address 7
+8,Karan,Khan,Uttar Pradesh,Address 8
+9,Karan,Mehta,Delhi,Address 9
+10,Neha,Gupta,Karnataka,Address 10
+11,Amit,Patel,Uttar Pradesh,Address 11
+12,Priya,Das,Karnataka,Address 12
+13,Sneha,Khan,Karnataka,Address 13
+14,Rahul,Nair,Maharashtra,Address 14
+15,Rahul,Das,Karnataka,Address 15
+16,Riya,Reddy,Kerala,Address 16
+17,Neha,Singh,Kerala,Address 17
+18,Priya,Nair,Tamil Nadu,Address 18
+19,Vikram,Gupta,Karnataka,Address 19
+20,Riya,Khan,Uttar Pradesh,Address 20
+21,Rahul,Sharma,Uttar Pradesh,Address 21
+22,Anjali,Reddy,Kerala,Address 22
+23,Anjali,Nair,Maharashtra,Address 23
+24,Vikram,Iyer,Uttar Pradesh,Address 24
+25,Arjun,Patel,Karnataka,Address 25
+26,Arjun,Khan,Uttar Pradesh,Address 26
+27,Vikram,Nair,Tamil Nadu,Address 27
+28,Sneha,Singh,Uttar Pradesh,Address 28
+29,Anjali,Patel,Maharashtra,Address 29
+30,Priya,Reddy,Uttar Pradesh,Address 30
+31,Karan,Khan,Uttar Pradesh,Address 31
+32,Arjun,Sharma,Delhi,Address 32
+33,Amit,Das,Maharashtra,Address 33
+34,Vikram,Nair,Delhi,Address 34
+35,Riya,Das,Delhi,Address 35
+36,Neha,Mehta,Uttar Pradesh,Address 36
+37,Neha,Patel,Karnataka,Address 37
+38,Sneha,Khan,Uttar Pradesh,Address 38
+39,Karan,Singh,Karnataka,Address 39
+40,Riya,Mehta,Tamil Nadu,Address 40
+41,Priya,Das,Delhi,Address 41
+42,Sneha,Singh,Maharashtra,Address 42
+43,Rahul,Sharma,Kerala,Address 43
+44,Sneha,Patel,Uttar Pradesh,Address 44
+45,Priya,Gupta,Kerala,Address 45
+46,Priya,Mehta,Tamil Nadu,Address 46
+47,Neha,Singh,Karnataka,Address 47
+48,Karan,Sharma,Uttar Pradesh,Address 48
+49,Rahul,Singh,Karnataka,Address 49
+50,Arjun,Nair,Karnataka,Address 50
+51,Priya,Patel,Maharashtra,Address 51
+52,Amit,Reddy,Tamil Nadu,Address 52
+53,Sneha,Singh,Kerala,Address 53
+54,Vikram,Singh,Tamil Nadu,Address 54
+55,Anjali,Patel,Karnataka,Address 55
+56,Sneha,Singh,Tamil Nadu,Address 56
+57,Amit,Gupta,Karnataka,Address 57
+58,Neha,Sharma,Kerala,Address 58
+59,Arjun,Reddy,Delhi,Address 59
+60,Amit,Khan,Tamil Nadu,Address 60
+61,Rahul,Nair,Uttar Pradesh,Address 61
+62,Neha,Nair,Tamil Nadu,Address 62
+63,Sneha,Patel,Uttar Pradesh,Address 63
+64,Neha,Singh,Delhi,Address 64
+65,Vikram,Singh,Tamil Nadu,Address 65
+66,Priya,Khan,Tamil Nadu,Address 66
+67,Anjali,Reddy,Maharashtra,Address 67
+68,Arjun,Iyer,Tamil Nadu,Address 68
+69,Neha,Nair,Delhi,Address 69
+70,Anjali,Nair,Karnataka,Address 70
+71,Amit,Gupta,Tamil Nadu,Address 71
+72,Anjali,Gupta,Delhi,Address 72
+73,Amit,Nair,Uttar Pradesh,Address 73
+74,Amit,Khan,Kerala,Address 74
+75,Amit,Das,Kerala,Address 75
+76,Karan,Khan,Karnataka,Address 76
+77,Neha,Khan,Tamil Nadu,Address 77
+78,Sneha,Gupta,Tamil Nadu,Address 78
+79,Neha,Khan,Maharashtra,Address 79
+80,Priya,Khan,Kerala,Address 80
+81,Rahul,Mehta,Karnataka,Address 81
+82,Priya,Mehta,Maharashtra,Address 82
+83,Amit,Nair,Kerala,Address 83
+84,Priya,Das,Kerala,Address 84
+85,Anjali,Khan,Delhi,Address 85
+86,Karan,Iyer,Delhi,Address 86
+87,Priya,Patel,Karnataka,Address 87
+88,Neha,Khan,Kerala,Address 88
+89,Neha,Singh,Kerala,Address 89
+90,Amit,Singh,Kerala,Address 90
+91,Rahul,Khan,Delhi,Address 91
+92,Priya,Iyer,Maharashtra,Address 92
+93,Anjali,Mehta,Kerala,Address 93
+94,Sneha,Mehta,Kerala,Address 94
+95,Priya,Reddy,Maharashtra,Address 95
+96,Vikram,Mehta,Uttar Pradesh,Address 96
+97,Karan,Iyer,Delhi,Address 97
+98,Anjali,Reddy,Delhi,Address 98
+99,Amit,Gupta,Uttar Pradesh,Address 99
+100,Karan,Sharma,Uttar Pradesh,Address 100
+101,Arjun,Sharma,Kerala,Address 101
+102,Riya,Iyer,Tamil Nadu,Address 102
+103,Karan,Patel,Kerala,Address 103
+104,Karan,Nair,Delhi,Address 104
+105,Rahul,Gupta,Kerala,Address 105
+106,Anjali,Mehta,Kerala,Address 106
+107,Riya,Khan,Tamil Nadu,Address 107
+108,Riya,Sharma,Tamil Nadu,Address 108
+109,Rahul,Mehta,Uttar Pradesh,Address 109
+110,Riya,Gupta,Tamil Nadu,Address 110
+111,Arjun,Reddy,Delhi,Address 111
+112,Arjun,Khan,Karnataka,Address 112
+113,Priya,Patel,Uttar Pradesh,Address 113
+114,Vikram,Iyer,Karnataka,Address 114
+115,Rahul,Sharma,Maharashtra,Address 115
+116,Riya,Gupta,Kerala,Address 116
+117,Rahul,Singh,Delhi,Address 117
+118,Karan,Reddy,Delhi,Address 118
+119,Arjun,Nair,Delhi,Address 119
+120,Arjun,Reddy,Delhi,Address 120
+121,Neha,Singh,Uttar Pradesh,Address 121
+122,Vikram,Gupta,Uttar Pradesh,Address 122
+123,Karan,Sharma,Uttar Pradesh,Address 123
+124,Karan,Reddy,Uttar Pradesh,Address 124
+125,Rahul,Patel,Karnataka,Address 125
+126,Rahul,Nair,Uttar Pradesh,Address 126
+127,Karan,Patel,Karnataka,Address 127
+128,Vikram,Gupta,Delhi,Address 128
+129,Arjun,Khan,Uttar Pradesh,Address 129
+130,Vikram,Singh,Maharashtra,Address 130
+131,Vikram,Sharma,Kerala,Address 131
+132,Priya,Reddy,Kerala,Address 132
+133,Amit,Das,Delhi,Address 133
+134,Vikram,Patel,Uttar Pradesh,Address 134
+135,Neha,Singh,Uttar Pradesh,Address 135
+136,Priya,Singh,Kerala,Address 136
+137,Rahul,Nair,Uttar Pradesh,Address 137
+138,Sneha,Singh,Kerala,Address 138
+139,Arjun,Gupta,Tamil Nadu,Address 139
+140,Sneha,Mehta,Delhi,Address 140
+141,Amit,Reddy,Karnataka,Address 141
+142,Amit,Das,Delhi,Address 142
+143,Anjali,Nair,Karnataka,Address 143
+144,Karan,Mehta,Tamil Nadu,Address 144
+145,Sneha,Khan,Delhi,Address 145
+146,Sneha,Mehta,Kerala,Address 146
+147,Sneha,Das,Maharashtra,Address 147
+148,Anjali,Reddy,Delhi,Address 148
+149,Rahul,Mehta,Kerala,Address 149
+150,Neha,Khan,Delhi,Address 150
