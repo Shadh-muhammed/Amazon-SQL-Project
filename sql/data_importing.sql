@@ -10,7 +10,13 @@ WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
 
 BULK INSERT sellers
 FROM 'D:\SQL PROJECTS\AMAZON\datasets\sellers.csv'
-WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '0x0a',
+    CODEPAGE = '65001',
+    TABLOCK
+);
 
 BULK INSERT products
 FROM 'D:\SQL PROJECTS\AMAZON\datasets\products.csv'
@@ -22,16 +28,50 @@ WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
 
 BULK INSERT order_item
 FROM 'D:\SQL PROJECTS\AMAZON\datasets\order_items.csv'
-WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '0x0a',
+    CODEPAGE = '65001',
+    TABLOCK
+);
 
 BULK INSERT orders
 FROM 'D:\SQL PROJECTS\AMAZON\datasets\orders.csv'
-WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '0x0a',
+    CODEPAGE = '65001',
+    TABLOCK
+);
 
 BULK INSERT payments
 FROM 'D:\SQL PROJECTS\AMAZON\datasets\payments.csv'
-WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
-
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '0x0a',
+    CODEPAGE = '65001',
+    TABLOCK
+);
 BULK INSERT shipping
 FROM 'D:\SQL PROJECTS\AMAZON\datasets\shipping.csv'
-WITH (FIRSTROW = 2, FIELDTERMINATOR = ',', ROWTERMINATOR = '\n');
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '0x0a',
+    CODEPAGE = '65001',
+    TABLOCK
+);
+select* from category;
+
+BULK INSERT category
+FROM 'D:\SQL PROJECTS\AMAZON\datasets\category.csv'
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '0x0a',
+    CODEPAGE = '65001',
+    TABLOCK
+);

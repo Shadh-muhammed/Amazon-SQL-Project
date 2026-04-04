@@ -1,0 +1,23 @@
+/* 3. Average Order Value (AOV)
+AOV per customer
+Only customers with more than 5 orders*/
+
+--O--OI--C
+-- GRP BY C ID, NAME, SUM(TOTAL SALE)/NO ORDER
+
+SELECT 
+	C.customer_id,
+	CONCAT (C.f_name,' ',C.l_name) AS FULL_NAME,
+	SUM(OI.TOTAL_SALE) AS TOTAL_SALE,
+	COUNT (O.ORDER_ID) AS TOTAL_ORDERS
+FROM ORDERS AS O
+JOIN CUSTOMERS AS C
+ON C.CUSTOMER_ID=O.CUSTOMER_ID
+JOIN
+ORDER_ITEM AS OI
+ON OI.ORDER_ID=O.ORDER_ID
+GROUP BY
+C.customer_id,
+	C.f_name,
+	C.L_name
+HAVING COUNT (O.ORDER_ID)>5;
